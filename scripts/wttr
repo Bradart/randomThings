@@ -1,0 +1,8 @@
+#!/usr/bin/zsh
+while [ 1 = 1 ]
+  do
+    clear
+    curl wttr.in/belleville+illinois
+    sleep 10
+    clear
+  done
