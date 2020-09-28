@@ -3,6 +3,6 @@ while [ 1 = 1 ]
   do
     clear
     curl wttr.in/belleville+illinois
-    sleep 10
+    sleep $1 
     clear
   done
