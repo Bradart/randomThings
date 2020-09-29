@@ -1,0 +1,4 @@
+#!/bin/bash
+cd ~/
+rclone sync -P onedrive compu:/
+

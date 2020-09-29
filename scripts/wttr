@@ -2,7 +2,7 @@
 while [ 1 = 1 ]
   do
     clear
-    curl wttr.in/belleville+illinois
+    curl 'wttr.in/belleville+illinois?u'
     sleep $1 
     clear
   done
