@@ -1,8 +1,18 @@
 #!/usr/bin/zsh
+
+
+if [ -z $1 ];
+  then
+    REFRESH=240
+  else
+    REFRESH=$1
+fi
+
 while [ 1 = 1 ]
   do
     clear
     curl 'wttr.in/belleville+illinois?u'
-    sleep $1 
+    echo $REFRESH
+    sleep $REFRESH 
     clear
   done
