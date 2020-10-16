@@ -12,7 +12,8 @@ while [ 1 = 1 ]
   do
     clear
     curl 'wttr.in/belleville+illinois?u'
-    echo $REFRESH
+    echo "Refreshing every" $REFRESH "seconds";
+    echo "last refresh:" "$(date)" 
     sleep $REFRESH 
     clear
   done
